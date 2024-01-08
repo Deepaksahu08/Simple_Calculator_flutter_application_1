@@ -5,16 +5,15 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String greeting = "Hello Bhargav";
 
-    return Material(
+    return const Material(
       color: Colors.deepOrange,
       child: Center(
         child: Text(
-          greeting,
+          "Hello World",
           style: TextStyle(
             fontSize: 40,
-            color: greeting.contains("Bhargav") ? Colors.white : Colors.black,
+            color: Colors.black,
             fontWeight: FontWeight.bold,
           ),
         ),
